@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "nettaddon",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "6unner",
+  "description": "6unner spexial rhonda",
   "authors": [
-    "seasnail"
+    "6unner"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/TSMTEAMER/Nett-Addon"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "nett.spend.Nett"
     ]
   },
   "mixins": [
-    "addon-template.mixins.json"
+    "nett-mix.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25"
